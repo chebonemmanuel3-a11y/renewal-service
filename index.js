@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const SESSION = "RGNK~aEaAPDZ1";
+const SESSION = "RGNK~MDuQX5bi";
 
 function run(command, options = {}) {
   try {
