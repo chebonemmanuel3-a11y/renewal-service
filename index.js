@@ -14,8 +14,8 @@ app.get("/renew", async (req, res) => {
 
     // Step 1: Login
     await page.goto("https://dashboard.katabump.com/auth/login", { waitUntil: "networkidle2" });
-    await page.type("input[type=email]", "YOUR_EMAIL");       // email field
-    await page.type("input[type=password]", "YOUR_PASSWORD"); // password field
+    await page.type("input[type=email]", "chebonfavour@gmail.com");       // email field
+    await page.type("input[type=password]", "w.9Hx_M7P95Fde9"); // password field
     await page.click("button[type=submit]");                  // login button
     await page.waitForNavigation();
 
